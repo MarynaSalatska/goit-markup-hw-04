@@ -106,9 +106,6 @@ header {
   color: var(--secondary-text-color);
 }
 
-.contact::before {
-}
-
 .nav {
   display: flex;
   align-items: center;
@@ -444,7 +441,8 @@ ul.list {
 }
 
 .link.contact:hover .icon,
-.link.contact:focus .icon {
+.link.contact:focus .icon,
+.link.contact:active .icon {
   fill: var(--decoration-text-color);
 }
 
