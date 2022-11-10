@@ -259,6 +259,7 @@ li .link.current {
 .description {
   padding-top: 30px;
   padding-bottom: 16px;
+  background-color: var(--primary-body-color);
 }
 .section-feature .section-title {
   position: absolute;
@@ -442,20 +443,23 @@ ul.list {
 }
 
 .link.contact:hover .icon,
-.link.contact:hover .icon {
+.link.contact:focus .icon {
   fill: var(--decoration-text-color);
 }
 
 .list-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
   max-width: 270px;
   height: 120px;
-  padding: 25px 100px;
 }
 /* -------------------social----------- */
 .social-list {
+  background-color: var(--primary-body-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -505,7 +509,6 @@ ul.list {
   fill: var(--icon-color);
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  padding: 16px 32px;
 }
 
 .client-link:hover,
@@ -525,10 +528,11 @@ ul.list {
 /* ------------footer-------- */
 .social-list-end {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
-.footer-social .social-list > .social-icon:not(:last-child) {
-  margin-right: 10px;
-}
+
 .footer-social .social-link {
   display: inline-flex;
   width: 44px;
