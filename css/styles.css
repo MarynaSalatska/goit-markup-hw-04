@@ -349,7 +349,8 @@ ul.list {
   color: var(--footer-color);
 }
 .footer-link:hover,
-.footer-link:focus {
+.footer-link:focus,
+.footer-link:active {
   color: var(--decoration-text-color);
 }
 .footer-address {
