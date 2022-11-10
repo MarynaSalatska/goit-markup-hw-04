@@ -421,6 +421,7 @@ ul.list {
 }
 
 .description-portfolio {
+  box-sizing: border-box;
   border: 1px solid #eeeeee;
   border-top: 0;
   padding: 20px 24px;
